@@ -77,7 +77,7 @@
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /* teams-style */
 .teams-container{
@@ -114,8 +114,16 @@ main{
     header{
         padding: 20px;
     }
-    nav {
+    nav, .teams-container
+     {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20PX;
     }
 }
 
@@ -125,7 +133,7 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
 }
