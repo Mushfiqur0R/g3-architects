@@ -226,6 +226,18 @@ footer .footer{
     padding-top: 20px;
 }
 
+/* hover effect */
+.btn-primary:hover{
+    background-color: #d34848;
+}
+ .ten-years-badge:hover{
+    background-color: #d34848;
+}
+
+ul>li:hover{
+    background-color:#dbad75 ;
+}
+
 /* responsive media query */
 /* mobile devices */
 @media screen and (max-width: 576px) {
